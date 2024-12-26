@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import Login from './components/Login';
 import Sign from './components/Sign';
 import List from './components/List';
@@ -16,7 +16,7 @@ import ProfileCheck from './components/ProfileCheck';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path='/' element={<Login></Login>}></Route>
           <Route exact path='/sign' element={<Sign></Sign>}></Route>
@@ -31,7 +31,7 @@ function App() {
           <Route exact path='/profile' element={<Profile></Profile>}></Route>
           <Route exact path='/profileCheck' element={<ProfileCheck></ProfileCheck>}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
