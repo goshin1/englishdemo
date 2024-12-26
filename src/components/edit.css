@@ -1,0 +1,72 @@
+.englishBlock input{
+    margin-top: -5px;
+    line-height: 20px;
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+
+.englishCheck{
+    margin : 12px 5px 0px 10px;
+    width: 15px;
+    height: 15px;
+    float: left;
+    border: 1px solid #1fab89;
+    border-radius: 50%;
+    background-position-x: center;
+    background-position-y: -2px;
+    background-size: 20px;
+    transition: all 0.2s;
+}
+
+#editRemocon{
+    margin: 10px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: #62d2a2;
+    z-index: 1;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s;
+    float: right;
+    cursor: pointer;
+    
+}
+
+#editRemocon div{
+    margin: 9px auto;
+    width: 40px;
+    height: 5px;
+    border-radius: 3px;
+    transition: all 0.5s;
+    background-color: #ffffff;
+}
+
+#editRemocon input[type=button]{
+    margin-top: -40px;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    border: none;
+    background-color:rgba(0,0,0,0);
+    color: #ffffff;
+    font-size: 15px;
+    display: none;
+    font-weight: bold;
+    transition: margin-left, opacity, font-size 0.5s;
+    cursor: pointer;
+}
+
+#selectDelBtn{
+    margin-left: 100px;
+}
+
+#selectUpBtn{
+    margin-left: 210px;   
+}
+
+#editRemocon input[type=button]:hover{
+    font-size: 20px;
+}

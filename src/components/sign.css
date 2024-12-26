@@ -1,0 +1,146 @@
+#signForm{
+    width: 100%;
+    min-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#logo{
+    margin: 60px auto 20px;
+    width: 315px;
+    cursor: pointer;
+}
+
+#signForm input{
+    margin: 0px auto;
+    display: block;
+    background-color: rgba(0,0,0,0);
+}
+
+#signForm input::placeholder{
+    color : #1FAB89;
+}
+
+
+#signForm input[name=id], input[name=email]{
+    margin: 30px auto;
+    width: 15%;
+    border: none;
+    height: 5%;
+    min-height: 22px;
+    font-size: 16px;
+    transition: all 0.2s;
+    clear: both;
+}
+
+#signForm input[name=id]{
+    margin: 0;
+    float: left;
+    min-width: 200px;
+}
+
+#signForm input[name=email]{
+    width: 280px;
+}
+
+#idLabel{
+    margin: 30px auto;
+    width: 280px;
+    height: 5%;
+    min-height: 30px;
+    display: block;
+}
+
+.clear{
+    clear: both;
+}
+
+.pswLabel{
+    margin: 30px auto;
+    width: 280px;
+    min-width: 230px;
+    height: 40px;
+    display: block;
+}
+
+#pswChLabel{
+    margin-top: -15px;
+}
+
+#signForm input[name=psw], #signForm input[name=pswCh]{
+    width: 200px;
+    min-width: 200px;
+    border: none;
+    height: 5%;
+    min-height: 22px;
+    font-size: 16px;
+    transition: all 0.2s;
+    float: left;
+}
+
+#signForm:nth-child(5){
+    margin-top: 30px;
+}
+
+
+#signForm input[name=pswCh]{
+    margin-top: 0px;
+}
+
+.pswLabel input[type=button]{
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-image: url('../imgs/eyeClose.png');
+    background-color: #ffffff;
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.2s;
+}
+
+#signForm input[name=duplic]{
+    margin-top: 2px;
+    border: none;
+    width: 20px;
+    height: 20px;
+    background-image: url('../imgs/checkIcon.png');
+    background-size: 20px;
+    cursor: pointer;
+    float : right;
+    transition: all 0.2s;
+}
+
+#signForm input[name=duplic]:active{
+    background-image: url('../imgs/checkIconOn.png');
+}
+
+.pwd{
+    background-image: url("../imgs/eyeClose.png");
+    background-size: 20px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.pwd:active{
+    background-image: url("../imgs/eye.png");
+}
+
+#signForm input::placeholder{
+    color : #1FAB89;
+}
+
+#sign{
+    display: block;
+    margin: 42px auto;
+    text-decoration: none;
+    border: none;
+    width: 20%;
+    height: 30px;
+    min-width: 125px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    color: #000000;
+    cursor: pointer;
+}
